@@ -576,7 +576,7 @@ header .shopping span{
 .soon .image img{
     width: 350px;
 }
-@media (max-width : 767px) {
+@media (max-width:767px) {
     .soon .image img{
         width: 200px;
     }
@@ -639,7 +639,7 @@ header .shopping span{
 }
 @media (max-width:767px) {
     .about video{
-        width: 400px;
+        width: 350px;
     }
 }
 .about .main-title h2{
@@ -692,6 +692,11 @@ header .shopping span{
 }
 .work .box{
     margin-top: 30px;
+}
+@media (max-width:767px) {
+    .work iframe{
+        width: 340px;
+    }
 }
 .work .main-title h2{
     font-style: italic;
@@ -774,7 +779,7 @@ header .shopping span{
     .contact .map{
         width: 350px;
         height: 350px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
 }
 
