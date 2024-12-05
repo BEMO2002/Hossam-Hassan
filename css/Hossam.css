@@ -558,11 +558,7 @@ header .shopping span{
     line-height: 1.7;
 }
 
-@media (max-width : 767px) {
-    .soon .image{
-        width: 400px;
-    }
-}
+
 .soon button{
     border: none;
     padding: 15px 25px;
@@ -578,7 +574,12 @@ header .shopping span{
 }
 
 .soon .image img{
-    width: 500px;
+    width: 350px;
+}
+@media (max-width : 767px) {
+    .soon .image img{
+        width: 200px;
+    }
 }
 /* start soon */
 /* start footer */
