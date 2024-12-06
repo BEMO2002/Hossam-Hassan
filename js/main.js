@@ -58,28 +58,30 @@ openShopping.addEventListener("click", () => {
 let products = [
   {
     id: 1,
-    name: "Curly or Wavy",
-    image: "1.jpg",
-    price: 50,
-  },
-  {
-    id: 2,
     name: "Hair Cut",
     image: "2.jpg",
     price: 80,
   },
   {
-    id: 3,
-    name: "Hair Protein",
-    image: "3.jpg",
-    price: 700,
-  },
-  {
-    id: 4,
+    id: 2,
     name: "Beard Cut",
     image: "4.png",
     price: 60,
   },
+  {
+    id: 3,
+    name: "Curly or Wavy",
+    image: "1.jpg",
+    price: 50,
+  },
+
+  {
+    id: 4,
+    name: "Hair Protein",
+    image: "3.jpg",
+    price: 700,
+  },
+
   {
     id: 5,
     name: "Gold Package",
