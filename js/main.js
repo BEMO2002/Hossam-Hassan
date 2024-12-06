@@ -239,3 +239,20 @@ window.onscroll = function() {
     btn.style.display = "none";
   }
 };
+
+
+
+
+
+window.onload = function(){
+  Swal.fire({
+    title: "Welcome!",
+    text: "To Sallon Hossam Hassan",
+    imageUrl: "images/Gallery-150x150.png",
+    imageWidth: 300,
+    imageHeight: 100,
+    imageAlt: "Custom image",
+    confirmButtonColor :"#000",
+    confirmButtonText :"Close"
+  });
+}
